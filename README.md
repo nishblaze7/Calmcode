@@ -1,5 +1,5 @@
 # CamcodeHW1
-Python Script for Camcode HW from VS Code
+Terminal Script for Camcode Virtualenv from VS Code
 
 nishanth@Chandans-Air ~ % /usr/local/bin/python3 /Users/nishanth/camcodehw.py
 
