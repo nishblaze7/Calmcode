@@ -2,19 +2,15 @@
 Python Script for Camcode HW from VS Code
 
 nishanth@Chandans-Air ~ % /usr/local/bin/python3 /Users/nishanth/camcodehw.py
+
 nishanth@Chandans-Air ~ % python3
 Python 3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
->>> which python3
-  File "<stdin>", line 1
-    which python3
-          ^^^^^^^
-SyntaxError: invalid syntax
 >>> exit()
-nishanth@Chandans-Air ~ % which python
-python not found
+
 nishanth@Chandans-Air ~ % which python3
 /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
+
 nishanth@Chandans-Air ~ % python3 -m pip install virtualenv
 Requirement already satisfied: virtualenv in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (20.25.0)
 Requirement already satisfied: distlib<1,>=0.3.7 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv) (0.3.8)
@@ -124,10 +120,7 @@ pydoc () {
 # we made may not be respected
 hash -r 2>/dev/null
 nishanth@Chandans-Air ~ % source venv3/bin/activate
-(venv3) nishanth@Chandans-Air ~ % python3- m pip install pandas fastapi
-zsh: command not found: python3-
-(venv3) nishanth@Chandans-Air ~ % python- m pip install pandas fastapi 
-zsh: command not found: python-
+
 (venv3) nishanth@Chandans-Air ~ % python3 -m pip install pandas fastapi 
 Requirement already satisfied: pandas in ./venv3/lib/python3.12/site-packages (2.2.0)
 Requirement already satisfied: fastapi in ./venv3/lib/python3.12/site-packages (0.50.0)
@@ -511,6 +504,7 @@ Requirement already satisfied: cffi>=1.0.1 in ./venv3/lib/python3.12/site-packag
 Requirement already satisfied: pycparser in ./venv3/lib/python3.12/site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.21)
 Requirement already satisfied: arrow>=0.15.0 in ./venv3/lib/python3.12/site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.0)
 Requirement already satisfied: types-python-dateutil>=2.8.10 in ./venv3/lib/python3.12/site-packages (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.8.19.20240106)
+
 (venv3) nishanth@Chandans-Air ~ % which jupyter
 /Users/nishanth/venv3/bin/jupyter
 (venv3) nishanth@Chandans-Air ~ % python3 -m pip freeze | grep jupyter
@@ -526,6 +520,7 @@ jupyterlab==4.0.12
 jupyterlab-widgets==3.0.9
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.25.2
+
 (venv3) nishanth@Chandans-Air ~ % python -m jupyter
 usage: jupyter.py [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir] [--paths] [--json] [--debug] [subcommand]
 
@@ -551,8 +546,7 @@ Please specify a subcommand or one of the optional arguments.
 (venv3) nishanth@Chandans-Air ~ % deactivate
 nishanth@Chandans-Air ~ % git init
 Reinitialized existing Git repository in /Users/nishanth/.git/
-nishanth@Chandans-Air ~ % git add ven3
-fatal: pathspec 'ven3' did not match any files
+
 nishanth@Chandans-Air ~ % ls
 Applications            Homework1               Pictures                dir2                    nishblaze.pem
 Desktop                 Library                 Public                  dirl                    requirements.txt
